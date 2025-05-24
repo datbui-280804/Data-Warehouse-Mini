@@ -6,10 +6,10 @@ Dự án này tập trung vào việc xây dựng một mô hình **Data Warehou
 
 ## 📁 Cấu trúc thư mục
 
-├── Data-Warehouse-Mini.ipynb # Notebook chính xử lý và xây dựng data warehouse
-├── Student Mental Health Analysis During Online Learning.csv # Dữ liệu thô
-├── student_mental_health.db # Cơ sở dữ liệu SQLite sau khi ETL
-└── README.md # File mô tả dự án
+**├── Data-Warehouse-Mini.ipynb # Notebook chính xử lý và xây dựng data warehouse
+**├── Student Mental Health Analysis During Online Learning.csv # Dữ liệu thô
+**├── student_mental_health.db # Cơ sở dữ liệu SQLite sau khi ETL
+**└── README.md # File mô tả dự án
 
 
 ## 🛠️ Các bước thực hiện

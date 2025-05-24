@@ -40,7 +40,6 @@ Dự án này tập trung vào việc xây dựng một mô hình **Data Warehou
 - Pandas, NumPy
 - SQLite3, PostgreSQL
 - Jupyter Notebook
-- Matplotlib, Seaborn
 
 ## 📌 Kết quả đạt được
 

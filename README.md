@@ -36,8 +36,7 @@ Dự án này tập trung vào việc xây dựng một mô hình **Data Warehou
 
 ## 🧰 Công nghệ sử dụng
 
-- Python
-- Pandas, NumPy
+- Python (Thư viện: Pandas, Numpy)
 - SQLite3, PostgreSQL
 - Jupyter Notebook
 

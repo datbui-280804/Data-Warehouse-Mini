@@ -10,7 +10,7 @@ Dự án này tập trung vào việc xây dựng một mô hình **Data Warehou
 
 ├── Student Mental Health Analysis During Online Learning.csv # Dữ liệu thô
 
-├── student_mental_health.db # Cơ sở dữ liệu SQLite sau khi ETL
+├── student_mental_health.db # Cơ sở dữ liệu sau khi ETL
 
 └── README.md # File mô tả dự án
 

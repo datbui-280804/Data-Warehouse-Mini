@@ -1,58 +1,58 @@
 # Student Mental Health Analysis During Online Learning
 
-## 📊 Mô tả Dự án
+## 📊 Project Description
 
-Dự án này tập trung vào việc xây dựng một mô hình **Data Warehouse** nhỏ để phân tích dữ liệu sức khỏe tâm lý của sinh viên trong thời kỳ học trực tuyến. Dữ liệu được khai thác, chuyển đổi và lưu trữ vào một cơ sở dữ liệu dạng `star schema`, phục vụ cho việc trực quan hóa và phân tích dễ dàng hơn.
+This project focuses on building a small-scale Data Warehouse model to analyze student mental health during online learning. The data is extracted, transformed, and loaded into a star schema database to facilitate easier querying and visualization.
 
 ## 📁 Cấu trúc thư mục
 
-├── Data-Warehouse-Mini.ipynb # Notebook chính xử lý và xây dựng data warehouse
+├── Data-Warehouse-Mini.ipynb # Main notebook for processing and building the data warehouse  
 
-├── Student Mental Health Analysis During Online Learning.csv # Dữ liệu thô
+├── Student Mental Health Analysis During Online Learning.csv # Raw dataset  
 
-├── student_mental_health.db # Cơ sở dữ liệu sau khi ETL
+├── student_mental_health.db # Database after ETL process 
 
-└── README.md # File mô tả dự án
+└── README.md # Project documentation
 
 
-## 🛠️ Các bước thực hiện
+## 🛠️ Workflow
 
-1. **Khám phá dữ liệu (Exploratory Data Analysis)**  
-   Phân tích sơ bộ dữ liệu gốc để hiểu cấu trúc và phát hiện giá trị thiếu, bất thường.
+1. **Exploratory Data Analysis (EDA)**  
+   Initial exploration of the raw data to understand structure and identify missing or abnormal values.
+   
+3. **Data Preprocessing**  
+   Cleaning and transforming the dataset, normalizing columns, encoding categorical variables.
 
-2. **Tiền xử lý dữ liệu**  
-   Làm sạch dữ liệu, chuẩn hóa các cột, mã hóa các giá trị định tính.
+4. **Data Modeling**  
+   Designing a star schema including:
+   - **Fact Table**: Stores event or behavioral data
+   - **Dimension Tables**: Gender, age group, course, etc.
 
-3. **Thiết kế mô hình dữ liệu**  
-   Xây dựng mô hình `Star Schema` bao gồm:
-   - **Fact Table**: Chứa dữ liệu hành vi/sự kiện
-   - **Dimension Tables**: Giới tính, độ tuổi, khóa học, v.v.
+5. **SQLite Database Creation**  
+   Loading the cleaned and structured data into the SQLite database student_mental_health.db.
 
-4. **Tạo cơ sở dữ liệu SQLite**  
-   Nhập dữ liệu đã xử lý vào các bảng trong cơ sở dữ liệu `student_mental_health.db`.
+6. **Analysis and Visualization**  
+   Querying the database to generate insights.
+   
+## 🧰 Technologies Used
 
-5. **Phân tích và Trực quan hóa**  
-   Truy vấn dữ liệu từ database để rút ra insight.
-
-## 🧰 Công nghệ sử dụng
-
-- Python (Thư viện: Pandas, Numpy)
+- Python (Libraries: Pandas, NumPy)
 - SQLite3, PostgreSQL
 - Jupyter Notebook
+- 
+## 📌 Achievements
 
-## 📌 Kết quả đạt được
+- Designed a well-structured data model that is easy to query.
+- Identified potential relationships between individual attributes and students' mental health during online learning.
+- Ready for further integration with additional data or BI reporting tools.
 
-- Xây dựng được mô hình dữ liệu trực quan, dễ truy vấn.
-- Phát hiện các mối quan hệ tiềm năng giữa yếu tố cá nhân và tình trạng tâm lý của sinh viên trong học online.
-- Sẵn sàng mở rộng để tích hợp thêm dữ liệu hoặc phục vụ báo cáo BI.
+## 🧠 Purpose
 
-## 🧠 Ý nghĩa
+This project aims to shed light on how online learning impacts student mental well-being and to support schools and organizations in providing timely interventions.
 
-Dự án giúp làm rõ tác động của việc học trực tuyến đến sức khỏe tâm lý sinh viên, hỗ trợ nhà trường và các tổ chức đưa ra biện pháp hỗ trợ kịp thời.
+## 📎 Author
 
-## 📎 Tác giả
-
-- **Tên:** Bùi Tiến Đạt
+- **Name:** Bui Tien Dat
 - **Email:** datbui28804@gmail.com
 - **Github:** https://github.com/datbui-280804
 

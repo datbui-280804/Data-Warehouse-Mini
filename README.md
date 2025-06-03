@@ -29,7 +29,7 @@ This project focuses on building a small-scale Data Warehouse model to analyze s
    - **Dimension Tables**: Gender, age group, course, etc.
 
 5. **SQLite Database Creation**  
-   Loading the cleaned and structured data into the SQLite database student_mental_health.db.
+   Loading the cleaned and structured data into the PostgreSQL database student_mental_health.db.
 
 6. **Analysis and Visualization**  
    Querying the database to generate insights.
@@ -37,7 +37,7 @@ This project focuses on building a small-scale Data Warehouse model to analyze s
 ## 🧰 Technologies Used
 
 - Python (Libraries: Pandas, NumPy)
-- SQLite3, PostgreSQL
+- PostgreSQL
 - Jupyter Notebook
 - 
 ## 📌 Achievements

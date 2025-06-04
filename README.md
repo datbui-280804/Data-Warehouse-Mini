@@ -4,17 +4,6 @@
 
 This project focuses on building a small-scale Data Warehouse model to analyze student mental health during online learning. The data is extracted, transformed, and loaded into a star schema database to facilitate easier querying and visualization.
 
-## 📁 Cấu trúc thư mục
-
-├── Data-Warehouse-Mini.ipynb # Main notebook for processing and building the data warehouse  
-
-├── Student Mental Health Analysis During Online Learning.csv # Raw dataset  
-
-├── student_mental_health.db # Database after ETL process 
-
-└── README.md # Project documentation
-
-
 ## 🛠️ Workflow
 
 1. **Exploratory Data Analysis (EDA)**  
